@@ -1,0 +1,16 @@
+"""
+Create a Python script that declares three variables: name, age, and country.
+Assign your own values to these variables, representing your name, age, and
+the country you live in. Afterward, print each variable on a new line.
+
+This task is designed to evaluate your ability to work with
+variables and print their values.
+"""
+
+name = input("Insert your name: ")
+age = input("Insert your age: ")
+country = input("Insert your country: ")
+
+print(name)
+print(age)
+print(country)

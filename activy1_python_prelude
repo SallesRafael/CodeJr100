@@ -1,0 +1,9 @@
+"""
+Challenge Statement:
+Write a simple Python script that displays the message
+"Hello, Python!" on the screen.
+This task aims to assess your understanding of basic Python
+syntax and your ability to execute a simple Python program.
+"""
+
+print("Hello, Python!")

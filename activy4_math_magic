@@ -9,7 +9,7 @@ ability to perform basic mathematical operations in Python.
 number1 = int(input("Insert first number: "))
 number2 = int(input("Insert second number: "))
 
-print(f"A soma de {number1} + {number2} é igual a {number1 + number2}")
-print(f"A multiplicação de {number1} x {number2} é igual a {number1 * number2}")
-print(f"A divisão de {number1} / {number2} é igual a {number1 / number2}")
-print(f"A subtração de {number1} - {number2} é igual a {number1 - number2}")
+print(f"A soma de {number1} + {number2} é igual a {number1 + number2}.")
+print(f"A multiplicação de {number1} x {number2} é igual a {number1 * number2}.")
+print(f"A divisão de {number1} / {number2} é igual a {number1 / number2}.")
+print(f"A subtração de {number1} - {number2} é igual a {number1 - number2}.")

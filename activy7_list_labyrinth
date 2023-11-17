@@ -1,0 +1,11 @@
+"""
+Create a Python script that involves working with lists.
+Define a list containing the names of three fruits.
+Use a for loop to iterate through the list and print each fruit's name.
+This task assesses your ability to manipulate and iterate through lists in Python.
+"""
+
+fruits = ("banana", "apple", "guava")
+
+for fruit in fruits:
+    print(fruit)

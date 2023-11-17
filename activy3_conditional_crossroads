@@ -1,0 +1,15 @@
+"""
+Write a Python script that prompts the user to enter their age.
+Based on the entered age, implement a conditional statement to check if
+the person is eligible to vote. If the age is 18 or older,
+print a message saying "You are eligible to vote." Otherwise,
+print "You are not eligible to vote yet." This task assesses your understanding
+of basic conditional statements in Python.
+"""
+
+age = int(input("Enter their age: "))
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote yet.")

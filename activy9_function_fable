@@ -1,0 +1,15 @@
+"""
+Write a Python script that defines a function called calculate_area
+to calculate the area of a rectangle. The function should take two parameters,
+length and width, and return the calculated area. Call the function with different
+values for length and width to demonstrate its functionality.
+This task assesses your ability to define and use functions in Python.
+"""
+def calculate_area(length, width):
+    total = length * width
+    print(f"The area of {length} and {width} is {total}")
+
+length = float(input("Insert the length: "))
+width = float(input("Insert the width: "))
+
+calculate_area(length, width)

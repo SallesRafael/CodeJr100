@@ -1,0 +1,14 @@
+"""
+Write a Python script that focuses on string manipulation.
+Define a string variable with the value "Python".
+Use string slicing to print the first three characters,
+the last three characters, and the middle two characters of the string.
+This task evaluates your understanding of string indexing and slicing in Python.
+"""
+
+string = "Python"
+middle_string = len(string) // 2
+
+print(f"The first three characters: {string[:3]}\n"
+      f"The last three characters: {string[-3::]}\n"
+      f"The middle two characters: {string[middle_string - 1:middle_string +1]}")

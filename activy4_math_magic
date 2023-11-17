@@ -1,0 +1,15 @@
+"""
+Create a Python script that performs a simple mathematical operation.
+Prompt the user to enter two numbers. Then, implement a series of print
+statements to display the result of addition, subtraction, multiplication,
+and division of these two numbers. This task is designed to assess your
+ability to perform basic mathematical operations in Python.
+"""
+
+number1 = int(input("Insert first number: "))
+number2 = int(input("Insert second number: "))
+
+print(f"A soma de {number1} + {number2} é igual a {number1 + number2}")
+print(f"A multiplicação de {number1} x {number2} é igual a {number1 * number2}")
+print(f"A divisão de {number1} / {number2} é igual a {number1 / number2}")
+print(f"A subtração de {number1} - {number2} é igual a {number1 - number2}")

@@ -1,0 +1,11 @@
+"""
+Write a Python script that prompts the user to input two numbers.
+Calculate the average of these two numbers and print the result.
+This task aims to evaluate your ability to interact with users through
+input statements and perform basic arithmetic operations in Python.
+"""
+
+number1 = int(input("Insert first number: "))
+number2 = int(input("Insert second number: "))
+
+print(f"The average of the numbers {number1} and {number2} is {(number1 + number2) / 2}.")

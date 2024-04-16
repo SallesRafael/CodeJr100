@@ -1,0 +1,11 @@
+"""
+Enhance the script from Challenge 8. Define a new string variable with the value "Programming" and combine it with the previous string.
+Print the concatenated string. Additionally, use string formatting to create a message that includes both strings.
+This task evaluates your ability to concatenate strings and use string formatting in Python.
+"""
+
+string = "Python"
+string2 = "Programming"
+
+print(f"The concatenation of words '{string}' and '{string2}' is '{string+string2}'\n"
+      f"I'm studying and {string2} in {string}")
